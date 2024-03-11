@@ -11,7 +11,7 @@ export default{
 </script>
 
 <template>
-  <div class="my-contianer">
+  <div class="my-container">
     <AppNav/>
   </div>
   
