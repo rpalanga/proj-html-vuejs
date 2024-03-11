@@ -95,6 +95,7 @@ export default {
 .my-bg-jumbo{
     background-image: url(../../public/images/home1_slide_three_bg_2.jpg);
     background-position: top;
+    background-repeat: no-repeat;
 
     height: 650px;
     display: flex;

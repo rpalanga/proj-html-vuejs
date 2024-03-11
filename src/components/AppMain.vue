@@ -40,12 +40,13 @@ export default {
 
         </div>
 
-        <!-- immagini  -->
+        <!-- immagini card-abiti  -->
 
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-3">
                 <div class="card border-0" style="width: 18rem;">
-                    <img src="../../public/images/black_elegant_leather_jacket-200x260.jpg" class="card-img-top" alt="...">
+                    <img src="../../public/images/black_elegant_leather_jacket-200x260.jpg" class="card-img-top"
+                        alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
@@ -63,7 +64,8 @@ export default {
             </div>
             <div class="col-3">
                 <div class="card border-0" style="width: 18rem;">
-                    <img src="../../public/images/blue_jacket_and_white_stripe_tee-200x260.jpg" class="card-img-top" alt="...">
+                    <img src="../../public/images/blue_jacket_and_white_stripe_tee-200x260.jpg" class="card-img-top"
+                        alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
@@ -83,6 +85,33 @@ export default {
 
     </div>
 
+    <!-- immagine Cubiche per le Season -->
+
+    <div class="container-fluid limits-container ">
+        <div class="row">
+            <div class="col p-0 position-relative my-width">
+                <img class="w-100 p-0" src="../../public/images/winter_collection_bg.jpg" alt="">
+                <div class="my-position-absolute">
+                    <h4>Winter Collection</h4>
+                    <h6>Stylish and More</h6>
+                    <button class="my-btn-trasparent">VIEW MORE</button>
+                </div>
+            </div>
+            <div class="col p-0 my-width">
+                <img class="w-100 p-0" src="../../public/images/spring_collection_bg.jpg" alt="">
+
+            </div>
+            <div class="col p-0 my-width">
+                <img class="w-100 p-0" src="../../public/images/autumn_collection_bg.jpg" alt="">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 </template>
 
 <style lang="scss">
@@ -98,5 +127,22 @@ export default {
         padding: 25px 50px;
     }
 
+}
+.limit-container{
+    max-width: 1100px;
+
+
+    .my-width{
+        width: calc(100% / 3);
+
+
+    }
+    
+    .my-position-absolute{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
 }
 </style>
