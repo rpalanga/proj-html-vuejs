@@ -7,7 +7,7 @@ export default{
 </script>
 
 <template>
-    <div class="container-fluid sales-bg">
+    <div class="container-fluid sales-bg mb-4">
         <div class="my-container p-5">
             <div class="row justify-content-center gap-4 ">
                 <div class="col-5 my-relative-sale  p-0">
