@@ -1,6 +1,8 @@
 <script>
-import {store} from "../store.js"
-import AppCarousel from './AppCarousel.vue'
+import {store} from "../store.js";
+import AppCarousel from './AppCarousel.vue';
+import AppDiscount from './AppDiscount.vue';
+
 
 
 export default {
@@ -13,6 +15,7 @@ export default {
     },
     components:{
         AppCarousel,
+        AppDiscount
     }
 
 
@@ -168,6 +171,8 @@ export default {
 
 
 <AppCarousel/>
+
+<AppDiscount/>
 
 
 </template>

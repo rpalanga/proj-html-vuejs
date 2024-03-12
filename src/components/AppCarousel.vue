@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div class="my-container">
+    <div class="my-container mb-5">
 
         <div class="row justify-content-center align-items-center text-center my-main-padding ">
             <div class="col-4">
@@ -36,21 +36,21 @@ export default {
         <div id="carouselExample" class="carousel slide mb-3 position-relative ">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="d-flex ">
-                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-20" alt="...">
-                        <img src="/public/images/hipster_black_top-231x300.jpg" class="d-block w-20" alt="...">
-                        <img src="/public/images/spring_printed_dress-231x300.jpg" class="d-block w-20" alt="...">
-                        <img src="/public/images/black_elegant_leather_jacket-231x300.jpg" class="d-block w-20" alt="...">
-                        <img src="/public/images/black_leather_jacket-231x300.jpg" class="d-block w-20" alt="...">
+                    <div class="d-flex my-car-width">
+                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
+                        <img src="/public/images/hipster_black_top-231x300.jpg" class="d-block w-100" alt="...">
+                        <img src="/public/images/spring_printed_dress-231x300.jpg" class="d-block w-100" alt="...">
+                        <img src="/public/images/black_elegant_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
+                        <img src="/public/images/black_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="d-flex ">
-                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-20" alt="...">
-                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-20" alt="...">
-                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-20" alt="...">
-                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-20" alt="...">
-                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-20" alt="...">
+                    <div class="d-flex my-car-width">
+                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
+                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
+                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
+                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
+                        <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
             </div>
@@ -96,6 +96,10 @@ export default {
     bottom: 100px;
     width: 10%;
 
+}
+
+.my-car-width{
+    width: calc(100% / 5);
 }
 
 
