@@ -3,6 +3,7 @@ import {store} from "../store.js";
 import AppCarousel from './AppCarousel.vue';
 import AppDiscount from './AppDiscount.vue';
 import AppBigCarousel from './AppBigCarousel.vue';
+import AppCircleCarousel from './AppCircleCarousel.vue';
 
 
 
@@ -19,6 +20,7 @@ export default {
         AppCarousel,
         AppDiscount,
         AppBigCarousel,
+        AppCircleCarousel,
     }
 
 
@@ -178,6 +180,8 @@ export default {
 <AppDiscount/>
 
 <AppBigCarousel/>
+
+<AppCircleCarousel/>
 
 </template>
 
