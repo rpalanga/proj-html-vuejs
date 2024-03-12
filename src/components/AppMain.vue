@@ -1,7 +1,20 @@
 <script>
+import {store} from "../store.js"
+import AppCarousel from './AppCarousel.vue'
+
 
 export default {
-    name: "AppMain"
+    name: "AppMain",
+
+    data(){
+        return{
+            store
+        }
+    },
+    components:{
+        AppCarousel,
+    }
+
 
 
 }
@@ -48,8 +61,13 @@ export default {
                     <img src="../../public/images/black_elegant_leather_jacket-200x260.jpg" class="card-img-top"
                         alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">
+                            Daiii
+                        </h5>
+                        <p class="card-text">
+                            <span>Vestito interessante</span>
+                            <strong>45.00$</strong>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,8 +75,13 @@ export default {
                 <div class="card border-0" style="width: 18rem;">
                     <img src="../../public/images/black_leather_suit-200x260.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">
+                            Daiii
+                        </h5>
+                        <p class="card-text">
+                            <span>Vestito interessante</span>
+                            <strong>45.00$</strong>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -67,8 +90,13 @@ export default {
                     <img src="../../public/images/blue_jacket_and_white_stripe_tee-200x260.jpg" class="card-img-top"
                         alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">
+                            Daiii
+                        </h5>
+                        <p class="card-text">
+                            <span>Vestito interessante</span>
+                            <strong>45.00$</strong>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -76,8 +104,13 @@ export default {
                 <div class="card border-0" style="width: 18rem;">
                     <img src="../../public/images/modern_black_leather_suit-200x260.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">
+                            Daiii
+                        </h5>
+                        <p class="card-text">
+                            <span>Vestito interessante</span>
+                            <strong>45.00$</strong>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -87,29 +120,54 @@ export default {
 
     <!-- immagine Cubiche per le Season -->
 
-    <div class="container-fluid limits-container ">
-        <div class="row">
-            <div class="col p-0 position-relative my-width">
-                <img class="w-100 p-0" src="../../public/images/winter_collection_bg.jpg" alt="">
-                <div class="my-position-absolute">
+    <div class="container-fluid">
+        <div class=" row  ">
+            <div class="col-4 p-0 my-width" 
+            style="
+            background-image: url(/images/winter_collection_bg.jpg);
+            background-position:center;
+            background-size: cover;
+            ">
+               
+                <div class="collection text-white">
                     <h4>Winter Collection</h4>
                     <h6>Stylish and More</h6>
                     <button class="my-btn-trasparent">VIEW MORE</button>
                 </div>
             </div>
-            <div class="col p-0 my-width">
-                <img class="w-100 p-0" src="../../public/images/spring_collection_bg.jpg" alt="">
+            <div class="col-4 p-0 my-width"
+            style="
+            background-image: url(/images/spring_collection_bg.jpg);
+            background-position:center;
+            background-size: cover;"
+            >
+                
+             <div class="collection text-white">
+                    <h4>Winter Collection</h4>
+                    <h6>Stylish and More</h6>
+                    <button class="my-btn-trasparent">VIEW MORE</button>
+                </div>
 
             </div>
-            <div class="col p-0 my-width">
-                <img class="w-100 p-0" src="../../public/images/autumn_collection_bg.jpg" alt="">
+            <div class="col-4 p-0 my-width"
+            style="
+            background-image: url(/images/autumn_collection_bg.jpg);
+            background-position:center;
+            background-size: cover;"
+            >
+             <div class="collection text-white">
+                    <h4>Winter Collection</h4>
+                    <h6>Stylish and More</h6>
+                    <button class="my-btn-trasparent">VIEW MORE</button>
+                </div>
+                
 
             </div>
         </div>
     </div>
 
 
-
+<AppCarousel/>
 
 
 </template>
@@ -128,13 +186,24 @@ export default {
     }
 
 }
-.limit-container{
-    max-width: 1100px;
+// .limit-container{
+//     max-width: 1920px;
 
 
     .my-width{
         width: calc(100% / 3);
 
+
+    }
+
+    .collection{
+        margin-top: 300px;
+    margin-bottom: 60px;
+    text-align: center;
+
+    h4{
+        font-weight: bolder;
+    }
 
     }
     
@@ -144,5 +213,5 @@ export default {
         left: 0;
     }
     
-}
+// }
 </style>

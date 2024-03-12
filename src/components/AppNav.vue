@@ -73,7 +73,7 @@ export default {
     </div>
 
     <!-- jumpotron -->
-    <div class="container-fluid my-bg-jumbo ">
+    <div class="container-fluid my-bg-jumbo  ">
         <div class="my-container text-center  d-flex flex-column align-item-center text-white my-padding">
             <h2 class="display-1 fw-bolder my-3  ">Brand New Arrivals</h2>
             <h3 class="fw-lighter">New Collection from New York</h3>
@@ -96,7 +96,9 @@ export default {
     background-image: url(../../public/images/home1_slide_three_bg_2.jpg);
     background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
 
+    width: 100%;
     height: 650px;
     display: flex;
     align-items: center;
