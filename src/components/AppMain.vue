@@ -68,11 +68,14 @@ export default {
         <div class="row mb-4">
             <div class="col-3">
                 <div class="card border-0" style="width: 18rem;">
-                    <img src="../../public/images/black_elegant_leather_jacket-200x260.jpg" class="card-img-top"
-                        alt="...">
+                    <div>
+                        
+                        <img src="../../public/images/black_elegant_leather_jacket-200x260.jpg" class="card-img-top"
+                            alt="...">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">
-                            Daiii
+                            Black Leather Jacket
                         </h5>
                         <p class="card-text">
                             <span>Vestito interessante</span>
@@ -86,10 +89,10 @@ export default {
                     <img src="../../public/images/black_leather_suit-200x260.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">
-                            Daiii
+                            Black Lather Suit
                         </h5>
                         <p class="card-text">
-                            <span>Vestito interessante</span>
+                            <span>Man,Jacket,Jeans</span>
                             <strong>45.00$</strong>
                         </p>
                     </div>
@@ -101,10 +104,10 @@ export default {
                         alt="...">
                     <div class="card-body">
                         <h5 class="card-title">
-                            Daiii
+                            Black Leather Suit
                         </h5>
                         <p class="card-text">
-                            <span>Vestito interessante</span>
+                            <span>Men, Jacket</span>
                             <strong>45.00$</strong>
                         </p>
                     </div>
@@ -115,10 +118,10 @@ export default {
                     <img src="../../public/images/modern_black_leather_suit-200x260.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">
-                            Daiii
+                            Blue Jacket & Stripe Tee
                         </h5>
                         <p class="card-text">
-                            <span>Vestito interessante</span>
+                            <span>Men,  Jacket, Suits</span>
                             <strong>45.00$</strong>
                         </p>
                     </div>
