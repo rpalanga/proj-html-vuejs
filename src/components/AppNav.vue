@@ -8,7 +8,7 @@ export default {
 
 <template>
     <div class="my-container">
-        <div class="top-nav d-flex justify-content-between align-items-center  border border-warning">
+        <div class="top-nav d-flex justify-content-between align-items-center  ">
             <div class="my-icon d-flex gap-2">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-x-twitter"></i>
@@ -48,7 +48,7 @@ export default {
 
         <!-- inizio seconda Nav -->
 
-        <div class="down-nav d-flex justify-content-between align-items-center  py-3 border border-warning">
+        <div class="down-nav d-flex justify-content-between align-items-center  py-3 ">
             <div class="my-logo">
                 <img src="../../public/images/classic_shop_logo1x.png" alt="">
             </div>

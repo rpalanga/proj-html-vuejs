@@ -214,7 +214,7 @@ export default {
     </div>
 
     <div id="logos" class="container-fluid logo-bg">
-        <div class="my-container mb-5 pb-5">
+        <div class="my-container pb-5">
             <div class="row text-center my-5 pt-5">
                 <h4>Brand Logo</h4>
             </div>
