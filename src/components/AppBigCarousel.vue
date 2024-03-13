@@ -24,7 +24,7 @@ export default {
             <div class="col-4">
                 <hr>
             </div>
-            <div class="col-4 fw-bolder fs-1 ">New Arrives</div>
+            <div class="col-4 fw-bolder fs-1 ">New Arrivals</div>
             <div class="col-4">
                 <hr>
             </div>
@@ -35,13 +35,13 @@ export default {
     </div>
     
     
-    <div id="pippo" class="container-fluid mb-5">
+    <div id="big-carousel" class="container-fluid mb-5 mx-auto">
         <!-- Carosello con cinque elementi -->
        
-        <div id="carouselExampleAutoplaying" class="carousel slide mb-3 position-relative " data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide mb-3  " data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="d-flex my-car-width ">
+                    <div class="d-flex my-big-car-width ">
                         <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
                         <img src="/public/images/hipster_black_top-231x300.jpg" class="d-block w-100" alt="...">
                         <img src="/public/images/spring_printed_dress-231x300.jpg" class="d-block w-100" alt="...">
@@ -50,7 +50,7 @@ export default {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="d-flex my-car-width">
+                    <div class="d-flex my-big-car-width">
                         <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
                         <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
                         <img src="/public/images/blue_leather_jacket-231x300.jpg" class="d-block w-100" alt="...">
@@ -79,10 +79,12 @@ export default {
 <style lang="scss">
 @use "../newstyles/styles.scss" as *;
 
-#pippo{
+#big-carousel{
 
     display: flex;
     justify-content: center;
+    position: relative;
+    
 
     .carousel-control-prev,
     .carousel-control-next {
@@ -107,7 +109,7 @@ export default {
     
     }
     
-    .my-car-width{
+    .my-big-car-width{
         width: calc(100% / 5);
         
     }

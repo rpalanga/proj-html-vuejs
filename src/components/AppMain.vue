@@ -4,6 +4,7 @@ import AppCarousel from './AppCarousel.vue';
 import AppDiscount from './AppDiscount.vue';
 import AppBigCarousel from './AppBigCarousel.vue';
 import AppCircleCarousel from './AppCircleCarousel.vue';
+import AppBlog from './AppBlog.vue';
 
 
 
@@ -21,6 +22,7 @@ export default {
         AppDiscount,
         AppBigCarousel,
         AppCircleCarousel,
+        AppBlog,
     }
 
 
@@ -133,7 +135,7 @@ export default {
             <div class="col-4 p-0 my-width" 
             style="
             background-image: url(/images/winter_collection_bg.jpg);
-            background-position:center;
+            background-position:top;
             background-size: cover;
             ">
                
@@ -146,7 +148,7 @@ export default {
             <div class="col-4 p-0 my-width"
             style="
             background-image: url(/images/spring_collection_bg.jpg);
-            background-position:center;
+            background-position:top;
             background-size: cover;"
             >
                 
@@ -160,7 +162,7 @@ export default {
             <div class="col-4 p-0 my-width"
             style="
             background-image: url(/images/autumn_collection_bg.jpg);
-            background-position:center;
+            background-position:top;
             background-size: cover;"
             >
              <div class="collection text-white">
@@ -182,6 +184,8 @@ export default {
 <AppBigCarousel/>
 
 <AppCircleCarousel/>
+
+<AppBlog/>
 
 </template>
 
