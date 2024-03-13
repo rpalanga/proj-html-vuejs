@@ -18,16 +18,16 @@ export default {
 
 <template>
 
-    <div class="container-fluid circle-bg p-3">
+    <div id="my-circle-carousel" class="container-fluid circle-bg p-3">
         <div class="row justify-content-center ">
             <div class="col-10 ">
     
-                <div id="carouselExampleIndicators" class="carousel slide d-flex flex-column align-items-center ">
+                <div id="carouselIndicators" class="carousel slide d-flex flex-column align-items-center ">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1" id="my-cirlce-button"></button>
+                        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2" id="my-circle-button"></button>
                         
                     </div>
                     <div class="carousel-inner ">
@@ -64,8 +64,12 @@ export default {
     background-size: cover;
 
     
+    
+    
+}
+#my-circle-carousel{
 
-    .carousel-indicators button {
+    .carousel-indicators button  {
         border-radius: 50%;
         width: 16px;
         height: 16px;
@@ -79,7 +83,6 @@ export default {
     .my-circle-padding{
         padding: 150px 60px;
     }
-
 
 }
 </style>

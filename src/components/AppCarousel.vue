@@ -85,7 +85,7 @@ export default {
         position: absolute;
         
         top: 100px;
-        left: -110px;
+        left: -50px;
         bottom: 100px;
         width: 10%;
     }
@@ -93,9 +93,10 @@ export default {
         position: absolute;
         
         top: 100px;
-        right: -110px;
+        right: -50px;
         bottom: 100px;
         width: 10%;
+        
     
     }
     
