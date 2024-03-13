@@ -70,9 +70,13 @@ export default {
                 <div class="card border-0" style="width: 18rem;">
                     <div class="my-card-hover">
                         
-                        <img src="../../public/images/black_elegant_leather_jacket-200x260.jpg" class="card-img-top my-card-hover"
+                        <img src="../../public/images/black_elegant_leather_jacket-200x260.jpg" class="card-img-top "
                             alt="...">
-
+                        <div class="my-overlay">
+                            <div>
+                                <i class="fa-solid fa-circle-check fs-1"></i>
+                            </div>
+                        </div>
 
 
                     </div>
@@ -89,7 +93,14 @@ export default {
             </div>
             <div class="col-3">
                 <div class="card border-0" style="width: 18rem;">
-                    <img src="../../public/images/black_leather_suit-200x260.jpg" class="card-img-top" alt="...">
+                    <div class="my-card-hover">
+                        <img src="../../public/images/black_leather_suit-200x260.jpg" class="card-img-top" alt="...">
+                        <div class="my-overlay">
+                            <div>
+                                <i class="fa-solid fa-circle-check fs-1"></i>
+                            </div>
+                        </div>
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">
                             Black Lather Suit
@@ -103,8 +114,17 @@ export default {
             </div>
             <div class="col-3">
                 <div class="card border-0" style="width: 18rem;">
-                    <img src="../../public/images/blue_jacket_and_white_stripe_tee-200x260.jpg" class="card-img-top"
-                        alt="...">
+                    <div class="my-card-hover">
+                        <img src="../../public/images/blue_jacket_and_white_stripe_tee-200x260.jpg" class="card-img-top"
+                            alt="...">
+
+                            <div class="my-overlay">
+                                <div>
+                                <i class="fa-solid fa-circle-check fs-1"></i>
+                            </div>
+                            </div>
+                        
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">
                             Black Leather Suit
@@ -118,7 +138,14 @@ export default {
             </div>
             <div class="col-3">
                 <div class="card border-0" style="width: 18rem;">
-                    <img src="../../public/images/modern_black_leather_suit-200x260.jpg" class="card-img-top" alt="...">
+                    <div class="my-card-hover">
+                        <img src="../../public/images/modern_black_leather_suit-200x260.jpg" class="card-img-top" alt="...">
+                        <div class="my-overlay">
+                            <div>
+                                <i class="fa-solid fa-circle-check fs-1"></i>
+                            </div>
+                        </div>
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">
                             Blue Jacket & Stripe Tee
@@ -236,9 +263,30 @@ export default {
         left: 0;
     }
 
-    .my-card-hover:hover{
-        background-image: linear-gradient(rgba(70, 130, 180, .8), rgba(178, 34, 34, .8)), url(../../public/images/black_elegant_leather_jacket-200x260.jpg);
+    .my-card-hover{
+       position: relative;
+        
     }
+    .my-overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(rgba(150, 125, 157, .8), rgba(95, 107, 171, .8));
+
+        opacity: 0;
+        transition: opacity 0.7 ease;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .my-card-hover:hover .my-overlay{
+        opacity: 1;
+    }
+
     
 // }
 </style>
