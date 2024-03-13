@@ -68,10 +68,13 @@ export default {
         <div class="row mb-4">
             <div class="col-3">
                 <div class="card border-0" style="width: 18rem;">
-                    <div>
+                    <div class="my-card-hover">
                         
-                        <img src="../../public/images/black_elegant_leather_jacket-200x260.jpg" class="card-img-top"
+                        <img src="../../public/images/black_elegant_leather_jacket-200x260.jpg" class="card-img-top my-card-hover"
                             alt="...">
+
+
+
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">
@@ -231,6 +234,10 @@ export default {
         position: absolute;
         top: 0;
         left: 0;
+    }
+
+    .my-card-hover:hover{
+        background-image: linear-gradient(rgba(70, 130, 180, .8), rgba(178, 34, 34, .8)), url(../../public/images/black_elegant_leather_jacket-200x260.jpg);
     }
     
 // }
